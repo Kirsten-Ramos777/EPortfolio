@@ -7,13 +7,9 @@
 }
 
 html, body {
-  height: 100%;
+  min-height: 100%;
   margin: 0;
-  
-  /* Fallback color if gradients aren't supported */
-  background-color: #C0C585; 
-  
-  /* The gradient code (Left to Right from pinkish-orange to pink) */
+  background-color: #C0C585;
   background: linear-gradient(to right, #cac531, #f3f9a7);
 }
 
@@ -96,7 +92,7 @@ li {
 }
 
 section:nth-child(even) {
-  background-color: #f8f8f8;
+  background: transparent;
 }
 
 .section__title {
